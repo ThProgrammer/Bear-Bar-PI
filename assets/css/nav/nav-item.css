@@ -1,0 +1,15 @@
+.nav__item{
+    margin: 0px 21px 0px 0px;
+    background-color: noe;
+
+}
+
+.nav__item:first-child{
+    margin: 0px 21px 0px 133px;
+
+}
+
+.nav__item:last-child{
+    margin: 0px 0px 0px 0px;
+
+}

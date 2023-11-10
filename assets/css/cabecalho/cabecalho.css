@@ -1,0 +1,15 @@
+@import url("../base.css");
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: flex-start;
+
+    background: var(--menu-background-color);
+
+
+    height: 76px;
+}
+

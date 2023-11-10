@@ -1,0 +1,12 @@
+@import url("../base.css");
+
+.nav__hiperlink{
+    color: var(--menu-text-color);
+    font-family: var(--font-league-spartan);
+    font-size: 1.2rem;
+
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+
