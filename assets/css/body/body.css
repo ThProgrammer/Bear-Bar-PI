@@ -1,5 +1,9 @@
 body{
 
-    background: burlywood;
+    background: black;
 
+    display: flex;
+    flex-direction: column;
+
+    height: auto;
 }

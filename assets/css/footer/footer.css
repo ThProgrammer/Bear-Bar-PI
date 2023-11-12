@@ -11,11 +11,10 @@
     align-items: center;
     justify-content: space-around;
 
-
-
-
     height: 412px;
     width: 100%;
+
+    position: relative;
 
 }
 
