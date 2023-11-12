@@ -1,0 +1,162 @@
+@import url(../base.css);
+
+.footer{
+    background: var(--footer-background-color);
+    font-family: var(--font-league-spartan);
+
+    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+
+
+
+
+    height: 412px;
+    width: 100%;
+
+}
+
+.footer__enterprise{
+    background: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: flex-start;
+
+    width: 100%;
+
+}
+.footer__container__logo{
+    background: none;
+    font-family: var(--font-league-spartan);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 100%;
+    width: auto;
+    margin-left: 9%;
+    margin-right: 6%;
+
+}
+
+.logo__name{
+    text-transform: uppercase;
+    color: var(--footer-text-color);
+    font-weight: 700;
+    font-size: 4.0625rem;
+    margin-right: 7px;
+    
+
+
+}
+
+.logo__contain__footer{
+    background: none;
+    position: relative;
+    top: -10px;
+
+    height: -50px;
+
+}
+
+.logo__image-footer{    
+    width: 82px;
+    height: auto;
+
+
+}
+
+.footer__info{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: flex-start;
+
+    width: 530px;
+
+}
+
+.info__schedule{
+    margin-right: 95px;
+
+}
+
+.info__title{
+    border-left: 3px solid #E2B100;
+    padding-left: 11px;
+    padding-top: 2px;
+    padding-bottom: 3px;
+    margin-bottom: 16px;
+
+    text-align: left;
+
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--footer-text-color);
+ 
+}
+
+.schedule__service{
+    color: var(--footer-text-color);
+    font-size: 0.80rem;
+    
+
+    margin-bottom: 9px;
+}
+
+
+
+.schedule__service:last-child{
+    margin-bottom: 0px;
+}
+
+.address__details{
+    color: var(--footer-text-color);
+    font-size: 0.80rem;
+    
+
+    margin-bottom: 9px;
+}
+
+
+
+.address__details:last-child{
+    margin-bottom: 0px;
+}
+
+.address__tel{
+    color: var(--footer-text-color);
+    text-decoration: none;
+
+}
+
+.address__email{
+    color: var(--footer-text-color);
+    text-decoration: none;
+
+}
+
+
+.footer__right{
+    background: none;
+    color: var(--footer-text-color);
+    border-top: 1px solid var(--footer-text-color);
+
+    padding-left: 31.5%;
+    padding-right: 31.5%;
+    
+}
+
+.right__copyrights{
+
+    margin-top: 22px;
+    text-align: center;
+    text-wrap: nowrap;
+
+}

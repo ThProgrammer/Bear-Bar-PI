@@ -1,0 +1,72 @@
+.menu__card{
+    height: 100vh;
+    font-family: var(--font-league-spartan);
+
+    display: flex;
+    flex-direction: row;
+
+    border-top: 3px solid #C29800;
+    border-bottom: 3px solid #C29800;
+
+}
+
+.card__meals{
+    background-image: url(../../image/pratos-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 50%;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap:nowrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.meals__hiperlink{
+    background-color: none;
+    text-decoration: none;
+    font-size: 5.625rem;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bold;
+
+
+
+}
+
+.card__drinks{
+    background-image: url(../../image/bebidas-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    
+
+    width: 50%;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap:nowrap;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.drinks__hiperlink{
+    background: none;
+    text-decoration: none;
+    font-size: 5.625rem;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bold;
+
+   /* backdrop-filter: opacity(40%);*/
+
+    width: 100%;
+    height: 100%;
+
+}
+
